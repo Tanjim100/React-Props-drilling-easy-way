@@ -74,10 +74,15 @@ export default UncontrolledInput;
 
 **Controlled elements are generally recommended** because they provide more control, validation, and consistency with React’s declarative approach.
 
+
+---
+
+
+
+
 ### **Props Drilling in React JSX**
 **Props Drilling** is a situation where **data (props) are passed down through multiple nested components** even if intermediate components do not need them. 
 
----
 
 ## **Example of Props Drilling**
 Suppose we have a `Parent` component that has some user data, but it needs to be used in a deeply nested `ChildC` component.
