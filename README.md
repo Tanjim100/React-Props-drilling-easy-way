@@ -112,11 +112,15 @@ function Parent() {
 
 export default Parent;
 ```
+
+
+---
+
+
+
 ### **Problem with Props Drilling**
 - If a component structure is deeply nested, **unnecessary passing of props** makes the code harder to maintain.
 - If a prop needs to be updated, every intermediate component must also update its props.
-
----
 
 ## **How to Avoid Props Drilling?**
 ### ✅ **1. Context API (Recommended for Global State)**
